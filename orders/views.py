@@ -3,9 +3,28 @@ from django.http import HttpResponse
 from carts.models import CartItem
 from .forms import OrderForm
 import datetime
-from .models import Order
+from .models import Order, Payment
+import json
 
 
+def payments(request):
+    body = json.loads(request.body)
+    order = Order.objects.get(user=request.user, is_ordered=False, order_number=body['orderID'])
+
+    #Store transaction details inside Payment model
+    payment = Payment(
+        user = request.user,
+        payment_id = body['transID'],
+        payment_method = body['payment_method'],
+        amount_paid = order.order_total,
+        status = body['status'],
+    )
+    payment.save()
+
+    order.payment = payment
+    order.is_ordered = True
+    order.save()
+    return render(request, 'orders/payments.html')
 
 def place_order(request, total=0, quantity=0,):
     current_user = request.user
@@ -53,6 +72,15 @@ def place_order(request, total=0, quantity=0,):
             order_number = current_date + str(data.id)
             data.order_number = order_number
             data.save()
-            return redirect('checkout')
+
+            order = Order.objects.get(user=current_user, is_ordered=False, order_number=order_number)
+            context = {
+                'order': order,
+                'cart_items': cart_items,
+                'total': total,
+                'tax': tax,
+                'grand_total': grand_total,
+            }
+            return render(request, 'orders/payments.html', context)
     else:
         return redirect('checkout')
