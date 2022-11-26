@@ -23,3 +23,7 @@ class UserProfileAdmin(admin.ModelAdmin):
 
 admin.site.register(Account, AccountAdmin)
 admin.site.register(UserProfile, UserProfileAdmin)
+
+admin.site.site_header = "Mystik Shop Admin"
+admin.site.site_title = "Mystik Shop Admin Portal"
+admin.site.index_title = "BSc (Hons) Applied ICT with Specialisation in Security - Project"
