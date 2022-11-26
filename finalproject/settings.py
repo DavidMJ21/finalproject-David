@@ -150,6 +150,6 @@ MESSAGE_TAGS = {
 #SMTP CONFIGURATION
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'david.j.alexis11@gmail.com'
+EMAIL_HOST_USER = 'david.j.alexis11@gmail.com' #I need to put my email address here for this to work
 EMAIL_HOST_PASSWORD = 'nbin fsji gsoa miyw' #I need to put my password here for this to work
 EMAIL_USE_TLS = True
