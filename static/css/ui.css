@@ -13,6 +13,7 @@ INCLUDE STYLES AND COMPONENTS
 /* ================== HELPERS  =================== */
 a:hover {
   text-decoration: none;
+
 }
 
 .img-wrap {
@@ -140,12 +141,12 @@ a:hover {
 }
 
 .hover-bg:hover {
-  background: #3167eb;
+  background: #C21010;
   /* For browsers that do not support gradients */
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #3167eb, #3167eb);
+  background: linear-gradient(to bottom right, #C21010, #C21010);
   /* Standard syntax */
   transition: 0.5s;
 }
@@ -256,7 +257,7 @@ article:after,
 }
 
 .bg-blue {
-  background-color: #3167eb;
+  background-color: #C21010;
 }
 
 .bg-red {
@@ -319,7 +320,7 @@ article:after,
 }
 
 .bg-pattern {
-  background-image: url(../images/banners/bg-pattern.svg), linear-gradient(135deg, #3167eb, #545454);
+  background-image: url(../images/banners/bg-pattern.svg), linear-gradient(135deg, #C21010, #545454);
   background-size: cover, auto;
   background-repeat: no-repeat, repeat;
   background-position: 0px 0px, 50% 50%;
@@ -351,7 +352,7 @@ article:after,
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #3167eb, aqua);
+  background: linear-gradient(to bottom right, #C21010, aqua);
   /* Standard syntax */
 }
 .overlay-gradient:hover:before {
@@ -450,7 +451,7 @@ p:last-child {
   color: #343a40;
 }
 .widget-header a:hover {
-  color: #3167eb;
+  color: #C21010;
 }
 .widget-header i {
   color: #969696;
@@ -467,12 +468,13 @@ p:last-child {
   right: -10px;
 }
 .widget-header:hover i {
-  color: #3167eb;
+  color: #C21010;
 }
 
 /* desktop only */
 /* desktop only .end */
 /* ================ SECTION-FOOTER ==================  */
+
 .section-footer ul li {
   margin-bottom: 5px;
 }
@@ -480,7 +482,7 @@ p:last-child {
   color: inherit;
 }
 .section-footer ul a:hover {
-  color: #3167eb;
+  color: #C21010;
 }
 .section-footer .logo-footer {
   height: 40px;
@@ -500,6 +502,7 @@ p:last-child {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 
 /* ================== COMPONENTS =================== */
 /* ================ OWL SLIDER BANNER ================ */
@@ -640,7 +643,7 @@ p:last-child {
   color: #212529;
 }
 .itemside a.title:hover {
-  color: #3167eb;
+  color: #C21010;
 }
 
 a.itemside {
@@ -782,7 +785,7 @@ ul.row, ul.row-sm {
 }
 .list-normal li:before {
   content: "•";
-  color: #3167eb;
+  color: #C21010;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
@@ -800,7 +803,7 @@ ul.row, ul.row-sm {
   color: #343a40;
 }
 .list-menu a:hover {
-  color: #3167eb;
+  color: #C21010;
 }
 
 .cols-two {
@@ -823,7 +826,7 @@ a[class*=card] {
   color: initial;
 }
 a[class*=card]:hover .title {
-  color: #3167eb;
+  color: #C21010;
 }
 
 /* BASE STYLE FOR PRODUCT ITEM */
@@ -832,7 +835,7 @@ a[class*=card]:hover .title {
   display: block;
 }
 [class*=card-product] a.title:hover {
-  color: #3167eb;
+  color: #C21010;
 }
 [class*=card-product] .badge {
   top: 10px;
@@ -884,7 +887,7 @@ a[class*=card]:hover .title {
   color: #ccc;
 }
 .card-product-grid .topbar a:hover {
-  color: #3167eb;
+  color: #C21010;
 }
 .card-product-grid .fix-height {
   height: 80px;
@@ -1187,7 +1190,7 @@ a[class*=card]:hover .title {
   margin-top: 7px;
 }
 .tracking-wrap .step.active .icon {
-  background: #3167eb;
+  background: #C21010;
   color: #fff;
 }
 .tracking-wrap .step.active .text {
@@ -1195,7 +1198,7 @@ a[class*=card]:hover .title {
   color: #000;
 }
 .tracking-wrap .step.active:before {
-  background: #3167eb;
+  background: #C21010;
 }
 
 .menu-category {
@@ -1287,8 +1290,8 @@ a[class*=card]:hover .title {
   opacity: 0;
 }
 .checkbox-btn input:checked ~ .btn {
-  border-color: #3167eb;
-  background-color: #3167eb;
+  border-color: #C21010;
+  background-color: #C21010;
   color: #fff;
 }
 
@@ -1304,8 +1307,8 @@ a[class*=card]:hover .title {
   opacity: 0;
 }
 .btn-check input:checked ~ .btn {
-  border-color: #3167eb;
-  background-color: #3167eb;
+  border-color: #C21010;
+  background-color: #C21010;
   color: #fff;
 }
 .btn-check:hover:not(.active) {
@@ -1324,7 +1327,7 @@ a[class*=card]:hover .title {
   left: 18px;
 }
 .js-check.active {
-  border-color: #3167eb;
+  border-color: #C21010;
 }
 .js-check:hover:not(.active) {
   border-color: #ccc;
