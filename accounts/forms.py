@@ -1,6 +1,10 @@
 from django import forms
 from .models import Account, UserProfile
 
+#captcha
+from captcha.fields import ReCaptchaField
+
+
 class RegistrationForm(forms.ModelForm):
     password = forms.CharField(widget=forms.PasswordInput(attrs={
         'placeholder': 'Enter Password',
@@ -13,6 +17,8 @@ class RegistrationForm(forms.ModelForm):
     class Meta:
         model = Account
         fields = ['first_name', 'last_name', 'phone_number', 'email', 'password']
+
+    captcha = ReCaptchaField()
 
 
     def clean(self):

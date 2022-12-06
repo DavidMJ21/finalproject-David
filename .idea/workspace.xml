@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7bfd2ea8-66c9-4635-9bd6-dca5d8331b1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/finalproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/facebook_cover_photo_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/facebook_cover_photo_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/facebook_profile_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/instagram_profile_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/lgo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/finalproject/static/images/lgo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/linkedin_banner_image_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/linkedin_banner_image_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/linkedin_profile_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/finalproject/static/images/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logo2 - Copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logo5-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logo55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logo7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logoF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logoLB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logoT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/logoT1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/newlogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/newlogo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/pinterest_board_photo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/pinterest_profile_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/twitter_header_photo_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/twitter_header_photo_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/twitter_profile_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/static/images/youtube_profile_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/finalproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/order_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/order_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/orders/order_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/orders/order_complete.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IXru4h9b1NvUzyMVAeoNc6735F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/user/OneDrive/Desktop/FinalProject"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bfd2ea8-66c9-4635-9bd6-dca5d8331b1b" name="Changes" comment="" />
+      <created>1670338988641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670338988641</updated>
+    </task>
+    <servers />
+  </component>
+</project>
