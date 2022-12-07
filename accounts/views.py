@@ -64,7 +64,7 @@ def login(request):
         email = request.POST['email']
         password = request.POST['password']
 
-        user = auth.authenticate(email=email, password=password)
+        user = auth.authenticate(email=email, password=password, request=request)
 
         if user is not None:
             try:
@@ -294,3 +294,9 @@ def order_detail(request, order_id):
         'subtotal': subtotal,
     }
     return render(request, 'accounts/order_detail.html', context)
+
+
+
+def account_locked(request):
+
+    return render(request, 'accounts/account-locked.html')

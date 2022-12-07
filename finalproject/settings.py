@@ -55,6 +55,8 @@ INSTALLED_APPS = [
     'django_otp.plugins.otp_static',
     'django_otp.plugins.otp_totp',
     'two_factor',
+
+    'axes',
 ]
 
 # reCAPTCHA Keys
@@ -80,7 +82,31 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_session_timeout.middleware.SessionTimeoutMiddleware',
+    'axes.middleware.AxesMiddleware', #axes
 ]
+
+
+
+AUTHENTICATION_BACKENDS = [
+    # AxesStandaloneBackend should be the first backend in the AUTHENTICATION_BACKENDS list.
+    'axes.backends.AxesStandaloneBackend',
+
+    # Django ModelBackend is the default authentication backend.
+    'django.contrib.auth.backends.ModelBackend',
+]
+
+
+#axes configuration settings
+
+AXES_FAILURE_LIMIT: 3 #No of times a user can failed a login
+
+AXSE_COOLOFF_TIME: 2 #wait 2 hours before being able to login again
+
+AXES_RESET_ON_SUCCESS = True #Reset failed login attempt
+
+AXES_LOCKOUT_TEMPLATE = 'accounts/account-locked.html'
+
+
 
 SESSION_EXPIRE_SECONDS = 3600  # 1 hour
 ESSION_EXPIRE_AFTER_LAST_ACTIVITY = True
