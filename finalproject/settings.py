@@ -27,7 +27,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['finalproject-mystik-env.eba-umrx3e8e.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
@@ -57,6 +57,8 @@ INSTALLED_APPS = [
     'two_factor',
 
     'axes',
+
+    'slider',
 ]
 
 # reCAPTCHA Keys
@@ -210,3 +212,36 @@ EMAIL_PORT = config('EMAIL_PORT', cast=int)
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)
+
+
+
+
+#Deploment settings
+#Protection against XSS attacks
+
+"""
+SECURE_BROWSER_XSS_FILTER = True
+SECURE_CONTENT_TYPE_NOSNIFF = True
+
+
+#CSRF Protection
+
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIES_SECURE = True
+
+
+#SSL redirect - only if not using load balancer
+
+SECURE_SSL_REDIRECT = True
+
+
+#Enable HSTS - Force connection over HTTPS and protect against man-in-the-middle attacks
+
+SECURE_HSTS_SECONDS = 86400
+
+SECURE_HSTS_PRELOAD = True
+
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+"""
+
+# Look into a CSP (Content Security Policy)
