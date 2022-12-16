@@ -28,8 +28,8 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-#ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['mystikshop-project-env.eba-yefnktc7.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = ['mystikshop-project-env.eba-yefnktc7.us-west-2.elasticbeanstalk.com']
 
 
 # Application definition
@@ -61,6 +61,7 @@ INSTALLED_APPS = [
     'axes',
 
     'slider',
+    'blacklist', #Blacklist IP add
 ]
 
 # reCAPTCHA Keys
@@ -82,6 +83,7 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'blacklist.middleware.BlacklistMiddleware', #Blacklist IP add
     'django_otp.middleware.OTPMiddleware', # 2FA
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',

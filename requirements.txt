@@ -8,11 +8,14 @@ django-admin-honeypot-updated-2021==1.2.0
 django-admin-interface==0.22.2
 django-admin-thumbnails==0.2.6
 django-axes==5.40.1
+django-blacklist==0.7.0
+django-block-ip==0.2.0
 django-colorfield==0.7.2
 django-crispy-forms==1.14.0
 django-flat-responsive==2.0
 django-flat-theme==1.1.4
 django-formtools==2.4
+django-honeypot==1.0.3
 django-ipware==4.0.2
 django-otp==1.1.4
 django-phonenumber-field==6.3.0
@@ -20,6 +23,7 @@ django-recaptcha==3.0.0
 django-session-timeout==0.1.0
 django-two-factor-auth==1.14.0
 idna==3.4
+ipcalc==1.99.0
 phonenumbers==8.13.1
 Pillow==9.3.0
 psycopg2-binary==2.9.5
